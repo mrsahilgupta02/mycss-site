@@ -1,0 +1,146 @@
+
+body{
+       margin: 0;
+       color: #40514E;
+       text-align: center;/*it is to make everything centric in body until inline fun or we can say its widht is definedcomes in action*/
+        font-family: 'Merriweather',serif;
+
+     }
+h1{
+ margin: 50px auto 0 auto;
+ font-family: 'Sacramento',cursive;
+ color: #66BFBF;
+
+ font-size: 562%; /*1em=16px=100%*,rem is latest css tag because it doesnt depend o size we defined in body/
+
+  /*margin:0 auto 0 auto;/*here first 0 is for top margin and second 0 for bottom margin first auto for right second for left*/
+                       /*because we want to place the text n centre so horizontal margins are used*/
+
+}
+h3{
+  font-family: 'Montserrat',sans-serif;
+  color: #11999E;
+}
+h2{
+  font-family: serif;
+  font-size: 2.5rem;
+   color: #66BFBF;
+   font-weight:normal;
+   padding-bottom: 10px;
+}
+.topcontainer{
+  background-color: #d4f1f9;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+
+}
+.bottom-container{
+
+
+background-color: #66BFBF;
+padding: 50PX 0 20PX;
+
+}
+a{
+  color: #11999E;
+    font-family: 'Montserrat',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.pro{
+  text-decoration: underline;
+  color: red;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.top-cloud{
+  position:absolute ;
+  right:300px;
+  top: 40px;
+}
+hr{
+  border: dotted grey 6px;
+  width: 5%;
+  border-bottom-style: none;
+  margin: 100px auto;
+}
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+.i{
+
+  width: 25%;
+ float: left;
+ margin-right: 30px;
+ border-radius: 50%;
+
+
+}
+.j{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+
+}
+.me{
+  height: 250px;
+  width: 250px;
+    border-radius: 50%;
+}
+p{
+  line-height: 2;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  left: 50%;
+  text-align: left;
+
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cfca9;
+  background-image: -webkit-linear-gradient(top, #3cfca9, #2bc290);
+  background-image: -moz-linear-gradient(top, #3cfca9, #2bc290);
+  background-image: -ms-linear-gradient(top, #3cfca9, #2bc290);
+  background-image: -o-linear-gradient(top, #3cfca9, #2bc290);
+  background-image: linear-gradient(to bottom, #3cfca9, #2bc290);
+  text-decoration: none;
+}
